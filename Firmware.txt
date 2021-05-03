@@ -1,0 +1,19 @@
+Board type: CC2530 + CC2592
+Device type: Router
+ Transmit enable (TXEN): P12Receive enable (RXEN): P14
+Model ID: PZEM.3ph
+Location description: Garage
+Update firmware's timestamp : 2021-05-02
+Status LED: P15, Periodic (every 5 seconds)
+Set default reporting interval (s): 2
+
+Output pins:
+P02: Output 1, PZEM-004T V3 (Address (dec): 1)
+P02: Output 2, PZEM-004T V3 (Address (dec): 2)
+P02: Output 3, PZEM-004T V3 (Address (dec): 3)
+P16: Output 4, GPIO, Pull-up
+P17: Output 5, GPIO, Pull-up
+
+Input pins:
+P20: Input 4, GPIO, Pull-up, Switch, Link to out 4
+P06: Input 5, GPIO, Pull-up, Switch, Link to out 5
