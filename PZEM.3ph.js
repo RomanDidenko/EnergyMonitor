@@ -35,11 +35,8 @@ const device = {
       exposes.numeric('frequency', ea.STATE).withEndpoint('l3').withUnit('Hz').withDescription('Frequency'),
       exposes.numeric('power_factor', ea.STATE).withEndpoint('l3').withUnit('cosf').withDescription('Power factor'),
   
-      //e.action(['single', 'double', 'triple', 'hold', 'release']),
-      //e.linkquality(),
-
-      e.switch().withEndpoint('l4'),
-      e.switch().withEndpoint('l5')
+      exposes.binary('state', ea.STATE, 'ON', 'OFF').withEndpoint('l4').withDescription('Primary source'),
+      exposes.binary('state', ea.STATE, 'ON', 'OFF').withEndpoint('l5').withDescription('Secondary source')
 ],
     meta: {
         multiEndpoint: true,
