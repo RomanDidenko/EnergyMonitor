@@ -26,7 +26,7 @@ RU:>Купите автору кофе
 EN:>CC2530
 RU:>CC2530
 
-EN:>CC2530 (without external oscillator, like СС2531 dongle or Sonoff BasicZBR3)
+EN:>CC2530 (without external oscillator, like CC2531 dongle or Sonoff BasicZBR3)
 RU:>CC2530 (без внешнего генератора, типа стика СС2531 или Sonoff BasicZBR3)
 
 EN:>CC2530 + CC2590
@@ -485,8 +485,11 @@ RU:>Внимание
 EN:>Yes
 RU:>Да
 
-EN:>You can add up to four hardware PWM to the firmware.%0D%0AHardware PWM is available on the following pins: %0D%0A1st: P13 or P16%0D%0A2nd: P10 or P20%0D%0A3rd: P14 or P17%0D%0A4th: P11 or P23
-RU:>Вы можете добавить до 4х аппаратных ШИМ в прошивке.%0D%0AАппаратный ШИМ доступен на следующих контактах: %0D%0A1: P13 или P16%0D%0A2: P10 или P20%0D%0A3: P14 или P17%0D%0A4: P11 или P23
+EN:>You can add up to four hardware PWM to the firmware.%0D%0AHardware PWM is available on the following pins:
+RU:>Вы можете добавить до 4х аппаратных ШИМ в прошивке.%0D%0AАппаратный ШИМ доступен на следующих контактах:
+
+EN:>1st: P13 or P16%0D%0A2nd: P10 or P20%0D%0A3rd: P14 or P17%0D%0A4th: P11 or P23
+RU:>1: P13 или P16%0D%0A2: P10 или P20%0D%0A3: P14 или P17%0D%0A4: P11 или P23
 
 EN:>You cannot add more than %d sensors.
 RU:>Вы не можете добавить больше чем %d сенсоров.
@@ -497,8 +500,8 @@ RU:>Вы не можете использовать разные режимы внутренние подтяжки для контактов на
 EN:>You must use a unique ModelId for your device.
 RU:>Вы должны использовать уникальный идентификатора модели устройства.
 
-EN:>You must use P00..P07 for ADC
-RU:>Вы должны использовать контакты P00..P07 для АЦП
+EN:>You must use the following pins for ADC:
+RU:>Вы должны использовать следующие контакты для АЦП:
 
 EN:>You must use P02 and P03 for UART, MZH19, SenseAir, and other UART-based sensors.
 RU:>Вы должны использовать P02 и P03 для последовательного порта (UART), MZH19, SenseAir, и других аналогичных сенсоров.
@@ -548,7 +551,7 @@ RU:>Отправка отчетов
 EN:>Would you like to continue?
 RU:>Вы хотели бы продолжить?
 
-EN:>Disable period reports
+EN:>Disable periodic reports
 RU:>Отключить периодические отчеты
 
 EN:>Debounce interval
@@ -571,4 +574,19 @@ RU:>Время работы
 
 EN:>Custom (dec)
 RU:>Свой (десят-ый)
+
+EN:>Poll for queued commands (s)
+RU:>Проверка отложенных команд (с)
+
+EN:>Icon (file or data URI)
+RU:>Иконка (файл или data URI)
+
+EN:>Serial bootloader (SBL)
+RU:>Загрузка прошивок через UART (SBL)
+
+EN:>Enable SBL
+RU:>Включить SBL
+
+EN:>SBL mode activation pin
+RU:>Пин активации режима SBL
 
